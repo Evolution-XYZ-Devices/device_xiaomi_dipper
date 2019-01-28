@@ -1,6 +1,13 @@
 # Audio
 ro.vendor.audio.soundfx.type=mi
 
+# Display (FOSS)
+ro.vendor.display.foss=1
+ro.vendor.display.paneltype=2
+ro.vendor.display.sensortype=2
+vendor.display.foss.config=1
+vendor.display.foss.config_path=/vendor/etc/FOSSConfig.xml
+
 # Display postprocessing
 vendor.display.enable_default_color_mode=1
 
