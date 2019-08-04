@@ -17,6 +17,8 @@ TARGET_FACE_UNLOCK_CAMERA_ID := 5
 
 # Display
 TARGET_USES_COLOR_METADATA := true
+TARGET_HAS_HDR_DISPLAY := true
+TARGET_USES_DRM_PP := true
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/dipper
