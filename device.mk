@@ -15,9 +15,6 @@ $(call inherit-product-if-exists, vendor/xiaomi/dipper/dipper-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2248
 TARGET_SCREEN_WIDTH := 1080
 
-# GoogleCamera
-$(call inherit-product, packages/apps/GoogleCameraMod/xiaomi-sdm845/config.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
@@ -64,8 +61,8 @@ PRODUCT_PACKAGES += \
     init.target.rc
 
 # GPS
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/gps_debug.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps_debug.conf
+# PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/configs/gps_debug.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps_debug.conf
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -106,7 +103,3 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/pn5xx
-
-# Wallpapers
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt
