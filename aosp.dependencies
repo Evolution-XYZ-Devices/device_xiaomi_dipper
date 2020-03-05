@@ -1,20 +1,20 @@
 [
- {
-   "remote": "DarkAngelGR",
-   "repository": "device_xiaomi_sdm845-common",
-   "target_path": "device/xiaomi/sdm845-common",
-   "branch": "ten"
- },
-   {
-   "remote": "DarkAngelGR",
-   "repository": "android_vendor_xiaomi",
-   "target_path": "vendor/xiaomi",
-   "branch": "ten"
- },
-    {
-   "remote": "TwistedKernel",
-   "repository": "Twisted-845",
-   "target_path": "kernel/xiaomi/dipper",
-   "branch": "qcam"
- }
+  {
+    "repository"  : "DarkAngelGR/device_xiaomi_sdm845-common",
+    "target_path" : "device/xiaomi/sdm845-common",
+    "branch"      : "ten",
+    "remote"      : "github"
+  },
+  {
+    "repository"  : "TwistedKernel/Twisted-845",
+    "target_path" : "kernel/xiaomi/dipper",
+    "branch"      : "master",
+    "remote"      : "github"
+  },
+  {
+    "repository"  : "DarkAngelGR/android_vendor_xiaomi",
+    "target_path" : "vendor/xiaomi",
+    "branch"      : "ten",
+    "remote"      : "github"
+  }
 ]
