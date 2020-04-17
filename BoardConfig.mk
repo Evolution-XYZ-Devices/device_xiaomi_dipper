@@ -22,7 +22,6 @@ TARGET_HAS_HDR_DISPLAY := true
 TARGET_USES_DRM_PP := true
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/xiaomi/dipper
 TARGET_KERNEL_CONFIG := twisted_mi8_defconfig
 
 # HIDL
