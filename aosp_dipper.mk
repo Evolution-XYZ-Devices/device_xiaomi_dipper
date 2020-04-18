@@ -7,6 +7,9 @@
 $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common PixelExperience stuff.
+EVO_DONATE_URL := https://www.paypal.me/asavvo01
+EVO_MAINTAINER := DarkAngelGR
+EVO_SUPPORT_URL := https://t.me/EvolutionXDipper
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_BOOT_ANIMATION_RES := 1080
