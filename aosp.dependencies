@@ -16,5 +16,11 @@
     "target_path" : "vendor/xiaomi",
     "branch"      : "ten",
     "remote"      : "github"
+  },
+  {
+    "repository"  : "DarkAngelGR/prebuilts_clang_host_linux-x86_clang-11",
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-11",
+    "branch"      : "r10.0",
+    "remote"      : "github"
   }
 ]
