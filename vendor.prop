@@ -11,10 +11,6 @@ vendor.display.foss.config_path=/vendor/etc/FOSSConfig.xml
 # Display postprocessing
 vendor.display.enable_default_color_mode=1
 
-# Fingerprint
-ro.hardware.fp.fpc=true
-ro.hardware.fp.goodix=true
-
 # GNSS
 ro.hardware.flp=brcm
 ro.hardware.gps=brcm
