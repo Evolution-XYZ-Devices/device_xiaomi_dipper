@@ -1,0 +1,32 @@
+[
+  {
+    "repository":"MemeGang-Development/vendor_xiaomi_sdm845-common",
+    "target_path":"vendor/xiaomi/sdm845-common",
+    "branch":"eleven",
+    "remote":"github"
+  },
+ {
+    "repository":"MemeGang-Development/vendor_xiaomi_dipper",
+    "target_path":"vendor/xiaomi/dipper",
+    "branch":"eleven",
+    "remote":"github"
+  },
+ {
+    "repository":"MemeGang-Development/device_xiaomi_sdm845-common",
+    "target_path":"device/xiaomi/sdm845-common",
+    "branch":"eleven",
+    "remote":"github"
+  },
+   {
+    "repository":  "PixelExperience-Devices/kernel_xiaomi_polaris",
+    "target_path": "kernel/xiaomi/dipper",
+    "branch": "eleven"
+    "remote":"github"
+  },
+   {
+      "repository": "kdrag0n/proton-clang",
+      "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
+      "branch": "master",
+      "remote": "github"
+   }
+]
