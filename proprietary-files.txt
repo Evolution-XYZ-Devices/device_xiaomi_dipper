@@ -1,4 +1,4 @@
-# Device proprietary files - from dipper's MIUI package V12.0.2.0.QEAMIXM global stable version
+# Device proprietary files - from dipper MIUI package V12.0.4.0.QEACNXM China Stable version
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
